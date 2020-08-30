@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Challenge</p>
+    <ol>
+        <li>using nested for generate the following pattern</li>
+    </ol>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0 1 0 1</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1 0 1 0</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0 1 0 1</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1 0 1 0</p>
+ </li>
+    </ol>
+    <script>
+        var i;
+        var j;
+        var k;
+        var n = 4;
+        
+        for (i=0; i<n; i++)
+        {k= ''; //altfel prima valoare din fiecare rand va avea 2 caractere;
+            for (j=i; j<n+i; j++)
+            {
+                k+= j%2 + ' ';
+            }
+            console.log(k);
+                }  
+    </script>
+</body>
+</html>
