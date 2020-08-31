@@ -13,10 +13,7 @@ In this repo you will find my solutions for the following exercises:
 Challenge  
 
   using nested for generate the following pattern  
-           0 1 0 1  
-  
-           1 0 1 0  
-  
-           0 1 0 1  
-  
-           1 0 1 0  
+          1 0 1 0  
+          0 1 0 1  
+          1 0 1 0  
+          0 1 0 1  
