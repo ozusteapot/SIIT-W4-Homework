@@ -9,9 +9,16 @@
     <h1>compute the maximum of the elements of an array and display it in the console 
     </h1>
     <script>
-        var a=[1, 2, 3, 4, 5];
- 
-        console.log(Math.max(...a));
+        var a=[1, 7, 2, 3, 8, 4, 5];
+        var i;
+        var n=a.length;
+        var max=0;
+        for (i=0; i<n; i++)
+        {if (a[i]>a[i+1]&&a[i]>max)
+            max=a[i];   
+                }
+        console.log(max);
+        //  sau ii dam direct console.log(Math.max(...a));
     </script>
 </body>
 </html>
